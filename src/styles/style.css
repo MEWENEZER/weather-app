@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #eff8ff;
+  color: #101a34;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.header__form {
+  padding: 0px 0px 0px 20px;
+  gap: 20px;
+  height: 44px;
+  border-left: 1px solid #5f32de;
+}
+.header__form-search {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.header__form-btn {
+  border: none;
+  color: #eff8ff;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100px;
+  height: 44px;
+  /* Accent */
+  background: #5f32de;
+  border-radius: 5px;
+}
+
+.weather-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 360px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  filter: drop-shadow(0px 202px 81px rgba(0, 48, 86, 0.01)) drop-shadow(0px 114px 68px rgba(0, 48, 86, 0.05)) drop-shadow(0px 51px 51px rgba(0, 48, 86, 0.09)) drop-shadow(0px 13px 28px rgba(0, 48, 86, 0.1)) drop-shadow(0px 0px 0px rgba(0, 48, 86, 0.1));
+}
+.weather-card__weather {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.weather-card__image {
+  width: 180px;
+}
+
+/*# sourceMappingURL=style.css.map */
